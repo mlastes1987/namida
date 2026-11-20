@@ -1,0 +1,52 @@
+# Disc images and game data
+*.iso
+*.chd
+*.cso
+*.zso
+*.bin
+*.cue
+*.img
+*.mdf
+*.mds
+*.afs
+*.elf
+*.irx
+*.cmp
+*.ofs
+*.ofs.big
+
+# Extracted scripts, draft translations, and build outputs
+messages*.jsonl
+*.xdelta
+*.xdelta3
+*.bps
+*.ips
+*.zip
+*.7z
+*.rar
+build/
+dist/
+
+# Emulator data and logs
+.pcsx2*/
+bios/
+memcards/
+sstates/
+snaps/
+*.ps2
+*.p2s
+*.log
+
+# Python and local tooling
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.translation-*/
+*.tmp
+.env
+.env.*
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
